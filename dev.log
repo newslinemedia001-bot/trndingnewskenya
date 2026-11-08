@@ -1,0 +1,88 @@
+▲ Next.js 16.4.2 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.113.8:3000
+- Environments: .env.local
+✓ Ready in 2.5s
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\xampp\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\xampp\htdocs\projects\newslineprojects\Trending news kenya\package-lock.json
+
+✓ Running next.config.mjs took 109ms
+
+⚠ Blocked cross-origin request to Next.js dev resource /_next/hmr from "127.0.0.1".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['127.0.0.1'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET / 200 in 6.1s (next.js: 1326ms, application-code: 4.7s)
+ POST /api/login 303 in 3.3s (next.js: 681ms, application-code: 2.6s)
+ GET /login?error=invalid 200 in 742ms (next.js: 90ms, application-code: 652ms)
+ POST /api/login 200 in 1747ms (next.js: 33ms, application-code: 1714ms)
+ GET /desk 200 in 2.1s (next.js: 97ms, application-code: 1987ms)
+ POST /api/login 401 in 386ms (next.js: 6ms, application-code: 381ms)
+ POST /api/login 401 in 327ms (next.js: 6ms, application-code: 320ms)
+ GET / 200 in 1502ms (next.js: 3ms, application-code: 1499ms)
+ GET / 200 in 744ms (next.js: 3ms, application-code: 742ms)
+ GET / 200 in 1224ms (next.js: 4ms, application-code: 1220ms)
+ GET / 200 in 1909ms (next.js: 4ms, application-code: 1905ms)
+ POST /api/login 401 in 1209ms (next.js: 3ms, application-code: 1206ms)
+ GET / 200 in 2.3s (next.js: 2ms, application-code: 2.3s)
+ GET / 200 in 1949ms (next.js: 1.9ms, application-code: 1947ms)
+ GET / 200 in 2.1s (next.js: 5ms, application-code: 2.1s)
+ POST /api/login 401 in 1314ms (next.js: 3ms, application-code: 1311ms)
+ GET / 200 in 1976ms (next.js: 1.5ms, application-code: 1975ms)
+ GET / 200 in 2.5s (next.js: 4ms, application-code: 2.5s)
+ GET / 200 in 3.0s (next.js: 7ms, application-code: 3.0s)
+ GET / 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET / 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET / 200 in 2.8s (next.js: 3ms, application-code: 2.8s)
+ GET / 200 in 3.9s (next.js: 3ms, application-code: 3.9s)
+ GET / 200 in 3.4s (next.js: 8ms, application-code: 3.4s)
+✓ Compiled in 2.2s
+ GET /login?error=invalid 200 in 224ms (next.js: 31ms, application-code: 193ms)
+ GET / 200 in 2.6s (next.js: 5ms, application-code: 2.6s)
+✓ Compiled in 858ms
+ GET /login?error=invalid 200 in 229ms (next.js: 11ms, application-code: 218ms)
+✓ Compiled in 251ms
+ GET /login?error=invalid 200 in 389ms (next.js: 9ms, application-code: 380ms)
+✓ Compiled in 2.2s
+ GET /login?error=invalid 200 in 211ms (next.js: 6ms, application-code: 206ms)
+ GET / 200 in 2.2s (next.js: 3ms, application-code: 2.2s)
+ GET / 200 in 1530ms (next.js: 6ms, application-code: 1523ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET / 200 in 2.0s (next.js: 10ms, application-code: 2.0s)
+✓ Compiled in 4.4s
+ GET / 200 in 6.1s (next.js: 11ms, application-code: 6.1s)
+✓ Compiled in 8.4s
+ GET / 200 in 425ms (next.js: 57ms, application-code: 368ms)
+ GET / 200 in 4.3s (next.js: 14ms, application-code: 4.3s)
+✓ Compiled in 8.1s
+ GET / 200 in 517ms (next.js: 10ms, application-code: 507ms)
+ GET / 200 in 2.0s (next.js: 3ms, application-code: 2.0s)
+✓ Compiled in 2.8s
+ GET / 200 in 543ms (next.js: 30ms, application-code: 513ms)
+✓ Finished filesystem cache database compaction in 48s
+✓ Compiled in 3.9s
+○ Compiling / ...
+✓ Compiled in 3.1s
+ GET / 200 in 577ms (next.js: 29ms, application-code: 548ms)
+ GET / 200 in 300ms (next.js: 7ms, application-code: 293ms)
+ GET / 200 in 2.7s (next.js: 2ms, application-code: 2.7s)
+ GET / 200 in 2.7s (next.js: 2ms, application-code: 2.7s)
+ GET / 200 in 1989ms (next.js: 3ms, application-code: 1986ms)
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\xampp\\htdocs\\projects\\newslineprojects\\Trending news kenya - Copy\\node_modules\\.bin\\next.cmd").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (1.5s elapsed so far; last modified: "\\\\?\\C:\\xampp\\htdocs\\projects\\newslineprojects\\Trending news kenya - Copy\\node_modules\\@babel\\core\\lib\\errors\\rewrite-stack-trace.js.map").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (3.5s elapsed so far; last modified: "\\\\?\\C:\\xampp\\htdocs\\projects\\newslineprojects\\Trending news kenya - Copy\\node_modules\\@babel\\helpers\\lib\\helpers\\classCallCheck.js.map").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (7.5s elapsed so far; last modified: "\\\\?\\C:\\xampp\\htdocs\\projects\\newslineprojects\\Trending news kenya - Copy\\node_modules\\@babel\\types\\lib\\validators\\generated").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (15.5s elapsed so far; last modified: "\\\\?\\C:\\xampp\\htdocs\\projects\\newslineprojects\\Trending news kenya - Copy\\node_modules\\@firebase\\auth\\dist\\esm\\src\\platform_browser\\persistence").
+ GET / 200 in 3.3s (next.js: 3ms, application-code: 3.3s)
+[?25h
