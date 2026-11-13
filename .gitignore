@@ -1,0 +1,10 @@
+
+# Never commit downloaded account keys or debugging dumps.
+secrets/
+*.log
+/*.html
+/*.htm
+/*.json
+!/package.json
+!/package-lock.json
+scripts/_*.mjs
